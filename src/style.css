@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame {
+  height: 500px;
+  width: 500px;
+  overflow: clip;
+}
+.all-images {
+  height: 500px;
+  overflow: clip;
+  width: 1500px;
+  position: relative;
+  right: 0px;
+}
+.all-images img {
+  height: 500px;
+  width: 500px;
+}
+.blue {
+  right: 0px;
+}
+.green {
+  right: 500px;
+}
+.red {
+  right: 1000px;
+}
+.next-btn {
+  position: absolute;
+  color: black;
+  top: 50%;
+  right: 34.5%;
+}
+.previous-btn {
+  position: absolute;
+  color: black;
+  top: 50%;
+  right: 64%;
+}
